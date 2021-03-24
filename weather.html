@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="https://i.pinimg.com/originals/b0/d8/35/b0d8352c0a3ea0fe630008a516ff5229.jpg" sizes="32x32" />
+      <title>Assignment5 Weather App</title>
+      <link rel="stylesheet" href="weather.css" />
+   </head>
+   <body>
+      <!-- Main app -->
+      <div class="app-wrap">
+          <!-- Search box -->
+         <header>
+            <input type="text"  class="search-box" placeholder="Search for a city......" />
+         </header>
+         <!-- inner dynamic text with respect to api ==> location, date/time, temperature-->
+         <main>
+            <section class="location">
+               <div class="city">Nainital, IN</div>
+               <div class="date">Friday 24 March 2021</div>
+            </section>
+            <div class="current">
+               <div class="temp">8<span>°c</span></div>
+               <div class="weather">Clouds</div>
+               <div class="hi-low">8°c / 7°c</div>
+            </div>
+         </main>
+      </div>
+      <script src="weather.js"></script>
+   </body>
+</html>
